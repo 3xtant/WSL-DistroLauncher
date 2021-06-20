@@ -36,6 +36,12 @@ HRESULT InstallDistribution(bool createUser)
         return hr;
     }
 
+    // Fix iputils issue.
+    hr = g_wslApi.WslLaunchInteractive(L"/usr/bin/rpm --setcaps iputils", true, &exitCode);
+    if (FAILED(hr)) {
+        return hr;
+    }
+
     // Create a user account.
     if (createUser) {
         Helpers::PrintMessage(MSG_CREATE_USER_PROMPT);
