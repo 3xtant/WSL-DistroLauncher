@@ -3,8 +3,8 @@
   <Identity Name="AlmaLinux8" Version="1.0.1.0" Publisher="CN=Windows Console Dev Team" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="160867c6-4e75-4e36-85c6-1543de07d5f3" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>WSL-DistroLauncher</DisplayName>
-    <PublisherDisplayName>Windows Console Dev Team</PublisherDisplayName>
+    <DisplayName>AlmaLinux 8</DisplayName>
+    <PublisherDisplayName>3xtant</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
